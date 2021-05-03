@@ -1,0 +1,13 @@
+{
+    "ruby.format": false
+
+}
+
+{
+    "emmet.includeLanguages": {
+        
+        "erb": "html"
+        "ruby": "html"
+    
+    }
+}
