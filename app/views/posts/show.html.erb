@@ -1,7 +1,7 @@
 <!-- не нужно указывать цикл *.each, rails сами выведут все посты -->
 <article class="post">
   <section class="post-head">
-    <h2><%= @post.title %></h2>
+    <h1><%= @post.title %></h1>
       <small>
         <time><%= @post.created_at.to_date.strftime("%d %B %Y") %></time>
         |
