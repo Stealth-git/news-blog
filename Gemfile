@@ -27,10 +27,11 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-gem 'bootstrap'
+gem 'bootstrap', '4.6.0'
 gem 'carrierwave', '~> 2.0' # гибкий способ загрузки изображений
 gem "mini_magick" # ресайз изображений
 gem 'trix' # редактор статей
+gem 'will_paginate' # постраничная пагинация
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
