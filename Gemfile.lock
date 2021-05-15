@@ -90,6 +90,13 @@ GEM
       mini_mime (>= 0.1.3)
       ssrf_filter (~> 1.0)
     childprocess (3.0.0)
+    coffee-rails (4.2.2)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     concurrent-ruby (1.1.8)
     crass (1.0.6)
     erubi (1.10.0)
@@ -200,6 +207,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    uglifier (3.0.4)
+      execjs (>= 0.3.0, < 3)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -231,6 +240,8 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   carrierwave (~> 2.0)
+  coffee-rails
+  execjs
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mini_magick
@@ -244,6 +255,7 @@ DEPENDENCIES
   trix
   turbolinks (~> 5)
   tzinfo-data
+  uglifier (>= 1.3.0)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)

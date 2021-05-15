@@ -33,6 +33,15 @@ gem "mini_magick" # ресайз изображений
 gem 'trix' # редактор статей
 gem 'will_paginate' # постраничная пагинация
 
+
+group :assets do
+  # Use Uglifier as compressor for JavaScript assets
+  gem 'uglifier', '>= 1.3.0'
+  gem 'coffee-rails'
+  # gem "therubyracer" # Embed the V8 JavaScript interpreter into Ruby.
+  gem 'execjs' # ExecJS lets you run JavaScript code from Ruby
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
