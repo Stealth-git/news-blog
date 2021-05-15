@@ -19,7 +19,8 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post, success: 'Статья успешно создана'
     else
-      render :new, danger: 'Статья не создана'
+      flash.now[:danger] = 'Статья не создана'
+      render :new
     end
   end
 
@@ -31,7 +32,8 @@ class PostsController < ApplicationController
     if @post.update(post_params)
       redirect_to @post, success: 'Статья успешно обновлена'
     else
-      render :edit, danger: 'Статья не обновлена'
+      flash.now[:danger] = 'Статья не обновлена'
+      render :edit
     end
   end
 
