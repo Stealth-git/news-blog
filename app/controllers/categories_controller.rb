@@ -27,7 +27,7 @@ class CategoriesController < ApplicationController
   end
 
   def update
-    if @category.update_attributes(category_params)
+    if @category.update(category_params)
       redirect_to categories_path, success: 'Категория успешно обновлена'
     else
       flash[:danger] = 'Категория не обновлена'
