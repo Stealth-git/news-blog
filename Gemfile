@@ -32,7 +32,7 @@ gem 'carrierwave', '~> 2.0' # гибкий способ загрузки изо�
 gem "mini_magick" # ресайз изображений
 gem 'trix' # редактор статей
 gem 'will_paginate' # постраничная пагинация
-
+gem 'ancestry' # создание вложенных категорий
 
 group :assets do
   # Use Uglifier as compressor for JavaScript assets

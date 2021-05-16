@@ -10,6 +10,7 @@ ru:
         all_tags: 'Теги'
       category:
         name: 'Название'
+        parent_id: 'Корневая категория'
     # перевод ошибок
     errors:
       messages:

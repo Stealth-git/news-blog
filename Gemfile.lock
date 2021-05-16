@@ -62,6 +62,8 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ancestry (2.2.2)
+      activerecord (>= 3.0.0)
     autoprefixer-rails (10.2.4.0)
       execjs
     bindex (0.8.1)
@@ -235,6 +237,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  ancestry
   bootsnap (>= 1.4.4)
   bootstrap (= 4.6.0)
   byebug
