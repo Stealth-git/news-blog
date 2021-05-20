@@ -33,6 +33,7 @@ gem "mini_magick" # ресайз изображений
 gem 'trix' # редактор статей
 gem 'will_paginate' # постраничная пагинация
 gem 'ancestry', '>= 4.0' # создание вложенных категорий
+gem 'pg'
 
 group :assets do
   # Use Uglifier as compressor for JavaScript assets
