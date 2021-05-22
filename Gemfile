@@ -33,7 +33,8 @@ gem "mini_magick" # ресайз изображений
 gem 'trix' # редактор статей
 gem 'will_paginate' # постраничная пагинация
 gem 'ancestry', '>= 4.0' # создание вложенных категорий
-gem 'pg'
+gem 'pg' # postgresql
+gem 'devise' # регистрация
 
 group :assets do
   # Use Uglifier as compressor for JavaScript assets
@@ -46,6 +47,7 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem "letter_opener" # Предварительный просмотр электронной почты в браузере по умолчанию вместо ее отправки.
 end
 
 group :development do
