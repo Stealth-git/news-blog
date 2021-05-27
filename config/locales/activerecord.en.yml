@@ -1,0 +1,17 @@
+en:
+  activerecord:
+    models:
+      post: 'Post'
+    attributes:
+      post:
+        title: 'Title'
+        summary: 'Summary'
+        body: 'Body'
+        all_tags: 'Tegs'
+      category:
+        name: 'Title'
+        parent_id: 'Root category'
+    # перевод ошибок
+    errors:
+      messages:
+        blank: "can't be blank"

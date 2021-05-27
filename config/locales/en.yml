@@ -30,7 +30,40 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      title: 'News Blog'
+
+  common: 
+    errors: 'Errors occurred when filling out the form'
+    back: 'Back'
+    create: 'Create'
+    edit: 'Edit'
+
+  posts:
+    index:
+      title: 'Posts'
+      button: 'New post'
+
+  admin:
+    categories:
+      index:
+        title: 'Categories'
+      new:
+        title: 'New categories'
+      edit:
+        title: 'Edit categories'
+      form:
+        submit:
+          '%{action} category'
+    posts:
+      new:
+        title: 'New post'
+      edit:
+        title: 'Edit post'
+      form:
+        submit:
+          '%{action} post'
 
   will_paginate:
     previous_label: "&#8592; Previous"
